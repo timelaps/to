@@ -1,5 +1,5 @@
 var b = require('@timelaps/batterie');
-var toBoolean = require('to/boolean');
+var toBoolean = require('../boolean');
 b.describe('to.boolean', function () {
     b.expect(toBoolean).toBeFunction();
     b.expect(toBoolean(true)).toBeTrue();

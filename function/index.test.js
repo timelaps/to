@@ -1,5 +1,5 @@
 var b = require('@timelaps/batterie');
-var toFunction = require('to/function');
+var toFunction = require('../function');
 b.describe('to.function', function () {
     b.expect(toFunction).toBeFunction();
     b.expect(toFunction()).toBeFunction();

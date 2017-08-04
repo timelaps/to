@@ -1,4 +1,4 @@
-var toString = require('to/string');
+var toString = require('../string');
 var b = require('@timelaps/batterie');
 b.describe('to.string', function () {
     b.expect(toString).toBeFunction();

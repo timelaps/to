@@ -1,4 +1,4 @@
-var symbolToString = require('to/base/symbol');
+var symbolToString = require('../../base/symbol');
 var isString = require('@timelaps/is/string');
 var isSymbol = require('@timelaps/is/symbol');
 module.exports = function (value) {

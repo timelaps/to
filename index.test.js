@@ -1,5 +1,3 @@
 var b = require('@timelaps/batterie');
 var to = require('.');
-b.describe('to', function () {
-    b.expect(to).toBeObject();
-});
+b.expect(to).toBeObject();

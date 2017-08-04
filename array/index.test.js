@@ -1,5 +1,5 @@
 var b = require('@timelaps/batterie');
-var toArray = require('to/array');
+var toArray = require('../array');
 b.describe('to.array', function () {
     b.expect(toArray).toBeFunction();
     b.expect(toArray()).toEqual([undefined]);

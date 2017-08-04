@@ -1,4 +1,4 @@
-var toInteger = require('to/integer');
+var toInteger = require('../integer');
 var clamp = require('@timelaps/number/clamp');
 var MAX_ARRAY_INDEX = require('@timelaps/constants/max-array-index');
 module.exports = function toLength(number) {
