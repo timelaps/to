@@ -1,12 +1,12 @@
 var MAX_INTEGER = require('@timelaps/constants/max-integer');
-var isStrictlyEqual = require('@timelaps/is/strictly-equal');
+var is0 = require('@timelaps/is/0');
 var toNumber = require('@timelaps/hacks/to-number');
 var isInfinite = require('@timelaps/is/infinite');
 var isNan = require('@timelaps/is/nan');
 module.exports = function (value) {
     var sign;
     if (!value) {
-        return isStrictlyEqual(value, 0) ? value : 0;
+        return is0(value, 0) ? value : 0;
     }
     value = toNumber(value);
     if (isInfinite(value)) {
