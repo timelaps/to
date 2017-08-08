@@ -1,10 +1,11 @@
 var isString = require('@timelaps/is/string');
+var isArray = require('@timelaps/is/array');
 var exp = /\]\.|\.\[|\.|\]|\[|\]/igm;
 toPath.parse = parse;
 module.exports = toPath;
 
 function toPath(string) {
-    return isString(string) ? parse(string) : [];
+    return isArray(string) ? string : (isString(string) ? parse(string) : []);
 }
 
 function parse(string_) {
