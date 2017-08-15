@@ -19,11 +19,11 @@
   },
   "homepage": "https://github.com/timelaps/to#readme",
   "devDependencies": {
-    "@timelaps/batterie": "^1.0.70"
+    "@timelaps/batterie": "^1.0.73"
   },
   "dependencies": {
-    "@timelaps/hacks": "^1.0.0",
-    "@timelaps/is": "^1.0.5",
+    "@timelaps/hacks": "^1.0.5",
+    "@timelaps/is": "^1.0.13",
     "@timelaps/number": "^1.0.0",
     "@timelaps/returns": "^1.0.0"
   }
