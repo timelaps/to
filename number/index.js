@@ -1,0 +1,1 @@
+module.exports = require('@timelaps/hacks/to-number');
